@@ -1,0 +1,46 @@
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(33.33% - 20px);
+    margin-right: 20px; /* Add space between cards */
+    margin-bottom: 20px;
+    display: inline-block; /* Ensure each card appears in line */
+    vertical-align: top; /* Align cards to top */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+  }
+
+  .card:last-of-type {
+    margin-right: 0; /* Remove margin from last card to prevent overflow */
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .card-title {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .card-text {
+    margin-bottom: 10px;
+  }
+
+  .card-footer {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+
+  .btn {
+    flex: 1;
+    margin: 0 5px;
+  }
+
+  .btn:first-of-type {
+    margin-left: 0;
+  }
+
+  .btn:last-of-type {
+    margin-right: 0;
+  }

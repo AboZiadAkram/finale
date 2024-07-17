@@ -1,0 +1,28 @@
+  .worker-name {
+    margin-top: 0;
+    text-align: center;
+    color:black;
+  }
+  .map {
+    height: 400px;
+    margin-top: 20px;
+  }
+  button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: #0056b3;
+  }
+
+p{
+    color:black;
+}
+
+img {
+    margin-bottom: 10px;
+    width: 400px;
+    height: 400px;
+}

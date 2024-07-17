@@ -1,0 +1,25 @@
+header{
+background-color: #343a40;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+h3{
+    text-decoration: solid;
+}
+
+nav{
+    display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  color: blue;
+}

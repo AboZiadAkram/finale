@@ -1,0 +1,9 @@
+.background-container {
+    background-image: url('../images/workers.jpg');
+    background-size: cover; /* Adjusts the size of the background image */
+    background-position: center; /* Centers the background image */
+    width: 100vw; /* Sets the width to full viewport width */
+    height: 100vh; /* Sets the height to full viewport height */
+    overflow: hidden; /* Ensures no overflow */
+    /* Add any additional styling as needed */
+  }
